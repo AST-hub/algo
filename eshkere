@@ -10,15 +10,15 @@ elif y >= 2500:
 t = int(input("узнать что делать при определенной температуре РБМК нажмите 0"))
 if t == 0:
   temp = int(input("какая температура РБМК"))
-elif temp <= 100:
+if temp <= 100:
   print("прохладно")
-elif temp >= 600:
+elif temp <= 600:
   print("ну нормально")
-elif temp >= 1000:
+elif temp <= 1000:
  print("жарковато")
-elif temp >= 2000:
+elif temp <= 2000:
   print("ну еще посидим")
-elif temp >= 3500:
+elif temp <= 3500:
   print("Я УЖЕ КРАСНЫЙ")
 else:
   print("Да поможет вам господь, аминь.")
